@@ -45,10 +45,19 @@
   line-height: 40px;
 }
 
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add any additional styling as needed */
+}
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  /* Add any additional styling for the image */
 }
+
 
 .wave-emoji {
   animation-duration: 1.8s;
