@@ -6,6 +6,30 @@
     url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
+/* @font-face {
+  font-family: "Stretch";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Stretch"),
+    url("./assets/fonts/Stretch.woff") format("woff");
+  font-display: swap;
+} */
+@font-face {
+  font-family: "StretchPro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("StretchPro"),
+    url("./assets/fonts/StretchPro.otf") format("otf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gimbal";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gimbal"),
+    url("./assets/fonts/Gimbal.woff") format("woff");
+  font-display: swap;
+}
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
