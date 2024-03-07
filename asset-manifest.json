@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/masterportfolio/static/css/main.652fac64.css",
-    "main.js": "/masterportfolio/static/js/main.82fabd05.js",
+    "main.css": "/masterportfolio/static/css/main.6a9c7941.css",
+    "main.js": "/masterportfolio/static/js/main.2c23eec8.js",
     "static/css/64.bba8fa55.chunk.css": "/masterportfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.686f8835.chunk.js": "/masterportfolio/static/js/64.686f8835.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/masterportfolio/static/css/769.b3cbb36b.chunk.css",
@@ -25,15 +25,15 @@
     "static/media/nextuLogo.webp": "/masterportfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/masterportfolio/index.html",
     "static/media/talksCardBack.svg": "/masterportfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.652fac64.css.map": "/masterportfolio/static/css/main.652fac64.css.map",
-    "main.82fabd05.js.map": "/masterportfolio/static/js/main.82fabd05.js.map",
+    "main.6a9c7941.css.map": "/masterportfolio/static/css/main.6a9c7941.css.map",
+    "main.2c23eec8.js.map": "/masterportfolio/static/js/main.2c23eec8.js.map",
     "64.bba8fa55.chunk.css.map": "/masterportfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.686f8835.chunk.js.map": "/masterportfolio/static/js/64.686f8835.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/masterportfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.0907b354.chunk.js.map": "/masterportfolio/static/js/769.0907b354.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.652fac64.css",
-    "static/js/main.82fabd05.js"
+    "static/css/main.6a9c7941.css",
+    "static/js/main.2c23eec8.js"
   ]
 }
