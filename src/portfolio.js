@@ -3,14 +3,14 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/loading"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ray Chiu",
+  title: "Hi all, I'm Ray",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a dedicated graduate student pursuing a Master's Degree in Applied Data Science at the University of Southern California with a strong focus on Data Science and Software engineering. My heart beats for crafting innovative software solutions, diving deep into the world of machine learning, and creating user-friendly interfaces."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    resumeLink:
+    "https://drive.google.com/file/d/1cwZnV1xQkHTD-6LraWwCgHNIdf88oNfD/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/raychiu99",
+  linkedin: "https://www.linkedin.com/in/chraychiu/",
+  gmail: "chengrue@usc.edu",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +44,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Language and Tools",
+  subTitle: "Web Development | Databases | Machine Learning ",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Programming Languages: Python, C/C++, Java, Swift, JavaScript"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Web Development & Database: React, Node.js, Flask, HTML5, CSS, MySQL, MongoDB, pySpark"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Machine Learning & Deep Learning Frameworks: Scikit-learn, TensorFlow, pyTorch, Keras"
     )
+    
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,10 +70,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -89,16 +82,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },  
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fab fa-envira"
     },
     {
       skillName: "aws",
@@ -113,8 +114,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +127,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Southern California",
+      logo: require("./assets/images/uscLogo.png"),
+      subHeader: "Master of Science in Applied Data Science",
+      duration: "Jan 2023 - Dec 2024 (Expected)",
+      desc: "GPA: 3.8/4.0",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Related Courses: Data Structure & Algorithms, Data Management, Machine Learning, User Studies",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University of California, Santa Cruz",
+      logo: require("./assets/images/ucscLogo.png"),
+      subHeader: "Bachelor of Science in Computer Engineering, minor in Statistics",
+      duration: "September 2018 - June 2022",
+      desc: "GPA 3.8/4.0, Cum laude",
+      descBullets: ["Related Courses: Applied Bayesian Statistics, Embedded System Design, Data Structure and Algorithms, Linear Algebra,  Logic design with Verilog, Principles of Computer Systems Design, Physics, Real Analysis, Signals and Systems "]
     }
   ]
 };
@@ -150,7 +150,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,30 +174,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Web Developer",
+      company: "USC Annenberg Media",
+      companylogo: require("./assets/images/annenbergmedia.png"),
+      date: "Feb 2024 - present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Utilizes Okta and Arc Publishing to develop new site sections: recommended and liked articles, estimated reading time.",
+        "Collaborate with a diverse team of content creators, executes new features using React, and functionalities to elevate uscannenbergmedia.com platform, resulting in enriched user engagement."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Teaching Assistant",
+      company: "Baskin Engineering, UCSC",
+      companylogo: require("./assets/images/baskinLogo.png"),
+      date: "Jan 2021 - Jun 2022",
+      descBullets: [
+        "Held four weekly tutoring sessions for 30 students in CSE12 (Computer Systems and Assembly Language), providing guidance on class materials and helping students solve problems from lab assignments.",
+        "Created personalized tutoring methods, resulting in an 85% average success rate on assignments and exams."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "CyberSecurity Intern",
+      company: "Sephora China",
+      companylogo: require("./assets/images/sephoraLogo.png"),
+      date: "Jun 2021 - Sep 2021",
+      descBullets: [
+        "Managed data collection and analysis for weekly network security projects, resulting in improved data accuracy and efficiency. ",
+        "Tracked and analyzed data for 300+ stores across China, presenting to the team through weekly network security projects",
+        "Collaborated with business departments to implement multiple data protection projects, strengthening cybersecurity policies and infrastructure"
+      ]
+    },
+    // {
+    //   role: "Website Developer Intern",
+    //   company: "Nucon Group Inc.",
+    //   companylogo: require("./assets/images/NuconLogo.png"),
+    //   date: "Sep 2022 – Dec 2022",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
@@ -239,7 +252,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +313,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +337,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +356,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,25 +369,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Let's be connect and talk more",
+  number: "+1 (626) 550-8966",
+  email_address: "chengrue@usc.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
