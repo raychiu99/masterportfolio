@@ -148,7 +148,7 @@ const educationInfo = {
       duration: "Jan 2023 - Dec 2024 (Expected)",
       desc: "GPA: 3.8/4.0",
       descBullets: [
-        "Related Courses: Data Structure & Algorithms, Data Management, Machine Learning, User Studies",
+        "Related Courses: Data Structures and Algorithms, Software Engineering, Data Management, Machine Learning, UI/UX design",
       ]
     },
     {
