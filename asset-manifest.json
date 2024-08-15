@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/masterportfolio/static/css/main.6a9c7941.css",
-    "main.js": "/masterportfolio/static/js/main.edfda827.js",
-    "static/css/64.bba8fa55.chunk.css": "/masterportfolio/static/css/64.bba8fa55.chunk.css",
+    "main.css": "/masterportfolio/static/css/main.498ff2f3.css",
+    "main.js": "/masterportfolio/static/js/main.a612a7a3.js",
+    "static/css/64.97e87a6d.chunk.css": "/masterportfolio/static/css/64.97e87a6d.chunk.css",
     "static/js/64.686f8835.chunk.js": "/masterportfolio/static/js/64.686f8835.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/masterportfolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.0907b354.chunk.js": "/masterportfolio/static/js/769.0907b354.chunk.js",
+    "static/media/hyp-logo.png": "/masterportfolio/static/media/hyp-logo.5a1131cee07e0ff49d0c.png",
     "static/media/annenbergmedia.png": "/masterportfolio/static/media/annenbergmedia.001ca695e64f800760b3.png",
     "static/media/ucscLogo.png": "/masterportfolio/static/media/ucscLogo.3379215eec7936125e5a.png",
     "static/media/Montserrat-Regular.ttf": "/masterportfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/StretchPro.otf": "/masterportfolio/static/media/StretchPro.a2ac1b6e2a9086e61eb1.otf",
     "static/media/uscLogo.png": "/masterportfolio/static/media/uscLogo.e439e4ee5794eb29dcb7.png",
     "static/media/Agustina.woff": "/masterportfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/manOnTable.svg": "/masterportfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/17015_color.png": "/masterportfolio/static/media/17015_color.14d2f2900ca2214afff4.png",
+    "static/media/15162_color.png": "/masterportfolio/static/media/15162_color.33f96a31723dd4f6983a.png",
     "static/media/contactMailDark.svg": "/masterportfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/developerActivity.svg": "/masterportfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/sephoraLogo.png": "/masterportfolio/static/media/sephoraLogo.bc4ab2732303de8eeb9f.png",
     "static/media/googleAssistantLogo.webp": "/masterportfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/Gimbal.woff": "/masterportfolio/static/media/Gimbal.d0ca8503ea728c075b0b.woff",
@@ -25,15 +26,15 @@
     "static/media/nextuLogo.webp": "/masterportfolio/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/masterportfolio/index.html",
     "static/media/talksCardBack.svg": "/masterportfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.6a9c7941.css.map": "/masterportfolio/static/css/main.6a9c7941.css.map",
-    "main.edfda827.js.map": "/masterportfolio/static/js/main.edfda827.js.map",
-    "64.bba8fa55.chunk.css.map": "/masterportfolio/static/css/64.bba8fa55.chunk.css.map",
+    "main.498ff2f3.css.map": "/masterportfolio/static/css/main.498ff2f3.css.map",
+    "main.a612a7a3.js.map": "/masterportfolio/static/js/main.a612a7a3.js.map",
+    "64.97e87a6d.chunk.css.map": "/masterportfolio/static/css/64.97e87a6d.chunk.css.map",
     "64.686f8835.chunk.js.map": "/masterportfolio/static/js/64.686f8835.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/masterportfolio/static/css/769.b3cbb36b.chunk.css.map",
     "769.0907b354.chunk.js.map": "/masterportfolio/static/js/769.0907b354.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a9c7941.css",
-    "static/js/main.edfda827.js"
+    "static/css/main.498ff2f3.css",
+    "static/js/main.a612a7a3.js"
   ]
 }
