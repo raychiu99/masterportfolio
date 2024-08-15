@@ -54,10 +54,12 @@
   display: block;
   flex: none;
   float: left;
-  font-size: 1.5em;
+  font-size: 2.5em;
   text-decoration: none;
   margin-top: 10px;
+  // padding-left: 50px;
   line-height: normal;
+  color: "#6397CC";
 }
 
 .header .logo-name {
@@ -65,7 +67,9 @@
   font-weight: bold;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
+  padding: 1 10px;
+  color: #29527d;
+  // 
 }
 
 /* menu */

@@ -26,7 +26,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{emoji("")}</span>
               </h1>
               <p
                 className={
@@ -55,8 +55,9 @@ export default function Greeting() {
               <DisplayLottie animationData={landingPerson} style={{ width: '85%', height: '85%' }} />
             ) : (
               <img
+                style={{ width: '75%', height: '75%' }}
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/17015_color.png")}
               ></img>
             )}
           </div>

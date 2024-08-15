@@ -35,6 +35,7 @@
 }
 
 .greeting-text {
+  
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
@@ -49,6 +50,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;             /* Ensures the div takes up the full width of its container */
+  height: auto;            /* Ensures the div takes up the full height of its container */
+
   /* Add any additional styling as needed */
 }
 

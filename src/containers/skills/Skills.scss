@@ -4,6 +4,7 @@
   display: flex;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .skills-text-div {
@@ -14,11 +15,21 @@
   flex: 1;
   margin-bottom: 30px;
 }
-
-.skills-image-div > img {
-  max-width: 100%;
-  height: auto;
+.skills-image-div {
+  display: flex;           /* Enables Flexbox on the container */
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center;     /* Vertically centers the content */
+  width: 100%;             /* Ensures the div takes up the full width of its container */
+  height: auto;            /* Ensures the div takes up the full height of its container */
 }
+// .skills-image-div > img {
+//   display: flex;          /* Enables flexbox on the container */
+//   justify-content: center; /* Horizontally centers the image */
+//   align-items: center;
+//   max-width: 100%;
+//   height: auto;
+//   // flex: center;
+// }
 
 .skills-heading {
   font-size: 56px;

@@ -16,17 +16,17 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Ray Chiu",
   title: "Hi all, I'm Ray",
   subTitle: emoji(
-    "I'm a dedicated graduate student pursuing a Master's Degree in Applied Data Science at the University of Southern California with a strong focus on Data Science and Software engineering. My heart beats for crafting innovative software solutions, diving deep into the world of machine learning, and creating user-friendly interfaces."
+    "I'm a dedicated graduate student pursuing a Master's Degree in Applied Data Science @ University of Southern California with a strong focus on Data Science and Software engineering."
   ),
     resumeLink:
-    "https://drive.google.com/file/d/1cwZnV1xQkHTD-6LraWwCgHNIdf88oNfD/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1nwVfgnYJO1kdfw6hrP_7BbQ3saenT27w/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,19 +48,19 @@ const skillsSection = {
   subTitle: "Web Development | Databases | Machine Learning ",
   skills: [
     emoji(
-      "⚡ Programming Languages: Python, C/C++, Java, Swift, JavaScript"
+      "⚡ Programming Languages: Python, C/C++, Java, Swift, JavaScript, TypeScript"
     ),
-    emoji("⚡ Web Development & Database: React, Node.js, Flask, HTML5, CSS, MySQL, MongoDB, pySpark"),
+    emoji("⚡ Web Development & Database: React, Node.js, Flask, HTML5, CSS, MySQL, MongoDB, pySpark, DynamoDB, Supabase"),
     emoji(
       "⚡ Machine Learning & Deep Learning Frameworks: Scikit-learn, TensorFlow, pyTorch, Keras"
-    )
-    
+    ),
+    emoji("⚡ DevOps and Tools: Git, Docker, Terraform, Linux, Unix, Agile, Figma, MATLAB, TCP/IP")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+  softwareSkills_web: [
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -88,10 +88,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
+    }],
+    softwareSkills_app: [
     {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "sql-database",
@@ -110,13 +119,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     },
-    {
-      skillName: "java",
-      fontAwesomeClassname: "fab fa-java"
-    }
+    
+    // {
+    //   skillName: "R",
+    //   fontAwesomeClassname: "fas fa-r"
+    // },
+    // <FontAwesomeIcon icon="fa-solid fa-c" />
+  ],
+  softwareSkills_language:[
+    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -172,17 +187,30 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [
+  experience1: [
+    {
+      role: "Full-Stack Engineer Intern",
+      company: "Hyphenova Networks",
+      companylogo: require("./assets/images/hyp-logo.png"),
+      date: "May 2024 - Aug 2024",
+      descBullets: [
+        "Spearheaded development of v1.0 of B2B mobile app's UI/UX in collaboration with designers, harnessing React Native to craft a user-centric campaign matchmaking and optimization platform for creators and brands, driven by actionable data insights",        
+        "Built a robust backend infrastructure with FastAPI, NGINX, and Docker, featuring a scalable microservices-based API framework and real-time event-driven architecture. Deployed and created RESTful APIs and web hooks to ensure seamless frontend-backend communication and frictionless data exchange.",
+        "Developed a customized chatbot by leveraging Chatterbot & ML libraries, training it on 500k+ social media datasets through NLP & ML analysis to enable natural language conversations and trends analysis. Collaborated with data team to provide accurate data integration and valuable insights informing users' decision-making processes."
+      ]
+    },
     {
       role: "Web Developer",
       company: "USC Annenberg Media",
       companylogo: require("./assets/images/annenbergmedia.png"),
       date: "Feb 2024 - present",
-      descBullets: [
-        "Utilizes Okta and Arc Publishing to develop new site sections: recommended and liked articles, estimated reading time.",
-        "Collaborate with a diverse team of content creators, executes new features using React, and functionalities to elevate uscannenbergmedia.com platform, resulting in enriched user engagement."
+      descBullets: [ 
+        "Redesign and construct impactful landing pages to inform users about current events and maintain accessibility, leading to significant improvements in user engagement and participation.",
+        "Collaborate with a diverse team of 90 school news editors to conceptualize and execute new functionalities built with React, HTML, and JavaScript, resulting in a continuous increase in active users on uscannenbergmedia.com",
+        "Analyze 100+ daily-updated DPS documents for patterns and conducted analysis on criminal activities around USC campus to provide data-driven valuable insights for users."
       ]
-    },
+    }],
+  experience2: [
     {
       role: "Teaching Assistant",
       company: "Baskin Engineering, UCSC",
