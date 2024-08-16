@@ -21,7 +21,7 @@ export default function Skills() {
               <DisplayLottie animationData={codingPerson} style={{ width: '85%', height: '85%' }} />
             ) : (
               <img
-                style={{ width: '60%', height: '60%' }}
+                style={{ width: '60%' }}
                 alt="Coding"
                 src={require("../../assets/images/15162_color.png")}
               ></img>

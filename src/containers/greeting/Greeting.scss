@@ -57,9 +57,12 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
-  /* Add any additional styling for the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;             /* Ensures the div takes up the full width of its container */
+  height: auto;            /* Ensures the div takes up the full height of its container */
+
 }
 
 

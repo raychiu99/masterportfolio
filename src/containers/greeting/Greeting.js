@@ -55,7 +55,7 @@ export default function Greeting() {
               <DisplayLottie animationData={landingPerson} style={{ width: '85%', height: '85%' }} />
             ) : (
               <img
-                style={{ width: '75%', height: '75%' }}
+                style={{ width: '75%' }}
                 alt="man sitting on table"
                 src={require("../../assets/images/17015_color.png")}
               ></img>
